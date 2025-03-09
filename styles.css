@@ -1,25 +1,61 @@
+* {
+    /* outline: 2px solid red; */
+    box-sizing: border-box;
+}
+
 body {
-    background-color: #71b6fb;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-}
-
-div {
-    background-color: black;
+    color: rgb(0, 0, 0);
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.683);
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px;
 }
 
 a {
-    color: white;
+    color: rgb(0, 0, 0);
+}
+
+.description,
+.ingredients,
+.method {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+}
+
+
+
+.description,
+.ingredients,
+.method,
+.image {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid black;
 }
 
 .bread {
-    color: gold;
+    /* color: gold; */
 }
 
 .meal {
-    color: brown;
+    /* color: brown; */
 }
