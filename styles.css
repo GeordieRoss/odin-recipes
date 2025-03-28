@@ -29,10 +29,10 @@ a {
 }
 
 .image {
-    width: 100%;
+    width: 90%;
     max-width: 600px;
     min-width: 0px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .card {
