@@ -68,3 +68,7 @@ a {
 .menu .card {
     align-items: center;
 }
+
+li {
+    padding: 8px;
+}
